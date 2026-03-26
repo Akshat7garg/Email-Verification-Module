@@ -1,0 +1,47 @@
+{
+  "name": "email-verification-module",
+  "version": "1.0.0",
+  "description": "A Node.js module to verify email addresses using syntax validation, DNS MX lookup, SMTP verification, and typo detection.",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshat7garg/Email-Verification-Module.git"
+  },
+
+  "keywords": [
+    "email",
+    "verification",
+    "smtp",
+    "dns",
+    "nodejs"
+  ],
+
+  "author": "Akshat Garg",
+  "license": "ISC",
+
+  "bugs": {
+    "url": "https://github.com/Akshat7garg/Email-Verification-Module/issues"
+  },
+
+  "homepage": "https://github.com/Akshat7garg/Email-Verification-Module#readme",
+  "type": "module",
+
+  "dependencies": {
+    "dns": "^0.2.2",
+    "net": "^1.0.2",
+    "nodemailer": "^8.0.4"
+  },
+
+  "devDependencies": {
+    "jest": "^30.3.0"
+  },
+  
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
