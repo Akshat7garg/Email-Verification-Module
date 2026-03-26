@@ -11,7 +11,14 @@ A Node.js module to verify email addresses using:
 
 ## 🚀 Setup
 
-1. Install dependencies:
+1. Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/Email-Verification-Module.git
+cd Email-Verification-Module
+```
+
+2. Install dependencies:
 
 ```bash
 npm install
